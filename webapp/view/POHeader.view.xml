@@ -1,0 +1,16 @@
+<mvc:View controllerName="POReport.controller.POHeader" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="PO Report Example">
+				<content>
+					<List noDataText="Drop list items here" id="__list0" items="{/POHeaderSet}">
+						<items>
+							<StandardListItem type="Navigation" title="{Ebeln}" description="{Bsart}" id="__item0" tooltip="Terms[{Zterm}] / Created by [{Ernam}]"
+								press="GoToPoItem"/></items>
+					</List>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
